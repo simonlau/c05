@@ -11,7 +11,7 @@ void	test_not_prime(void)
 	assert(0 == ft_is_prime(401 * 593));
 }
 
-void	test_prime(void)
+void	test_small(void)
 {
 	assert(1 == ft_is_prime(2));
 	assert(1 == ft_is_prime(3));
@@ -24,5 +24,5 @@ void	test_prime(void)
 int	main(void)
 {
 	test_not_prime();
-	test_prime();
+	test_small();
 }

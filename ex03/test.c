@@ -17,7 +17,7 @@ void	test_valid(void)
 
 void	test_zero(void)
 {
-	assert(0 == ft_recursive_power(0, 0));
+	assert(1 == ft_recursive_power(0, 0));
 }
 
 int	main(void)
